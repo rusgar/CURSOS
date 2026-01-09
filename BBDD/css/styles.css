@@ -50,7 +50,6 @@ h1 {
   color: #667eea;
   margin-bottom: 30px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -90,76 +89,140 @@ li {
   font-weight: bold;
 }
 
-.sql-badge {
+.tech-badge {
+  display: inline-block;
   background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   color: white;
-  padding: 4px 12px;
-  border-radius: 6px;
+  padding: 8px 20px;
+  border-radius: 25px;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  margin: 10px;
 }
 
-.timeline {
-  display: flex;
-  justify-content: space-between;
-  margin: 30px 0;
-  flex-wrap: wrap;
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.timeline-item {
-  flex: 1;
-  min-width: 150px;
-  text-align: center;
-  padding: 15px;
+.module-card {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  border-radius: 10px;
-  margin: 5px;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
 }
 
-.timeline-item strong {
-  display: block;
+.module-card h3 {
+  color: white;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.pros-cons {
+.module-card .hours {
+  font-size: 2em;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+
+.objectives-list {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.objectives-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.objectives-list li:last-child {
+  border-bottom: none;
+}
+
+.project-showcase {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.project-showcase h3 {
+  color: #f5576c;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.tools-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   margin-top: 30px;
 }
 
-.pros,
-.cons {
+.tool-card {
+  background: white;
+  border: 3px solid #667eea;
   padding: 25px;
   border-radius: 15px;
+  text-align: center;
 }
 
-.pros {
-  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+.tool-card .icon {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.methodology-chart {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.methodology-item {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.methodology-item .percentage {
+  font-size: 3em;
+  font-weight: bold;
+  color: #667eea;
+  display: block;
+}
+
+.methodology-item .label {
+  font-size: 1.1em;
+  color: #666;
+  margin-top: 10px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.feature-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-}
-
-.cons {
-  background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
-  color: white;
-}
-
-.card {
-  background: #f8f9fa;
-  padding: 25px;
+  padding: 30px;
   border-radius: 15px;
-  margin: 20px 0;
-  border-left: 6px solid #667eea;
+  text-align: center;
 }
 
-.card-special {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 25px;
-  border-radius: 15px;
-  margin: 20px 0;
-  border-left: 6px solid #f093fb;
+.feature-box .icon {
+  font-size: 3em;
+  margin-bottom: 15px;
 }
 
 .navigation {
@@ -199,68 +262,39 @@ button:disabled {
   font-weight: bold;
 }
 
-.index-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.index-item {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 1.3em;
-  text-align: center;
-  font-weight: bold;
-}
-
-.definition-box {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 30px;
-  border-radius: 15px;
-  margin: 20px 0;
-  font-size: 1.3em;
-  line-height: 1.8;
-}
-
-.role-card {
-  background: white;
-  border: 3px solid #667eea;
-  padding: 25px;
-  border-radius: 15px;
-  margin: 15px 0;
-}
-
-.table-model {
-  background: #f8f9fa;
-  padding: 30px;
-  border-radius: 15px;
-  margin: 20px 0;
-}
-
-.table-model strong {
-  color: #667eea;
-  font-size: 1.3em;
-}
-
-.course-badge {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  color: white;
-  padding: 15px 25px;
-  border-radius: 10px;
-  font-size: 1.2em;
-  text-align: center;
-  margin: 15px 0;
-  font-weight: bold;
-}
-
-.technique-box {
+.git-section {
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  padding: 20px;
-  border-radius: 10px;
-  margin: 15px 0;
-  border-left: 6px solid #f5576c;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.git-section h3 {
+  color: #f5576c;
+  margin-top: 0;
+}
+
+.comparison-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.comparison-table td {
+  padding: 15px;
+  border: 2px solid #667eea;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.comparison-table .header {
+  background: #667eea;
+  color: white;
+  font-weight: bold;
+}
+
+.checkmark {
+  color: #10b981;
+  font-size: 1.5em;
+  font-weight: bold;
 }

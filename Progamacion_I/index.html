@@ -7,284 +7,616 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-        <div class="presentation-container">
-        <!-- DIAPOSITIVA 1: PORTADA -->
-        <div class="slide active">
-            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 500px;">
-                <h1 style="font-size: 4em; margin-bottom: 20px;">DESARROLLO WEB</h1>
-                <h1 style="font-size: 3em; margin-bottom: 40px; color: #764ba2;">PROFESIONAL</h1>
-                <div style="text-align: center;">
-                    <span class="tech-badge">HTML5</span>
-                    <span class="tech-badge">CSS3</span>
-                    <span class="tech-badge">JavaScript</span>
-                </div>
-                <div style="margin-top: 50px; text-align: center;">
-                    <p style="font-size: 1.8em; color: #764ba2; font-weight: bold;">Curso CISE - 80 Horas</p>
-                    <p style="font-size: 1.3em; color: #666; margin-top: 10px;">De cero a tu primer proyecto web interactivo</p>
-                </div>
-            </div>
+    <div class="presentation-container">
+      <!-- DIAPOSITIVA 1: PORTADA -->
+      <div class="slide active">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 500px;
+          "
+        >
+          <h1 style="font-size: 4em; margin-bottom: 20px">DESARROLLO WEB</h1>
+          <h1 style="font-size: 3em; margin-bottom: 40px; color: #764ba2">
+            PROFESIONAL
+          </h1>
+          <div style="text-align: center">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+          </div>
+          <div style="margin-top: 50px; text-align: center">
+            <p style="font-size: 1.8em; color: #764ba2; font-weight: bold">
+              Curso CISE - 80 Horas
+            </p>
+            <p style="font-size: 1.3em; color: #666; margin-top: 10px">
+              De cero a tu primer proyecto web interactivo
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 2: ¿QUÉ VAS A CREAR? -->
+      <div class="slide">
+        <h2>🚀 ¿Qué vas a crear?</h2>
+        <div class="project-showcase">
+          <h3>Tu Sitio Web Personal Completo</h3>
+          <p style="font-size: 1.3em; margin: 20px 0">
+            Un proyecto profesional con múltiples páginas interactivas
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="icon">📱</div>
+            <h3 style="color: white; font-size: 1.3em">Responsive</h3>
+            <p>Se adapta a móviles, tablets y escritorio</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">⚡</div>
+            <h3 style="color: white; font-size: 1.3em">Interactivo</h3>
+            <p>Formularios, menús, galerías dinámicas</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🎨</div>
+            <h3 style="color: white; font-size: 1.3em">Profesional</h3>
+            <p>Diseño moderno y atractivo</p>
+          </div>
+        </div>
+        <div class="objectives-list">
+          <h3>Páginas incluidas:</h3>
+          <ul>
+            <li>
+              🏠 <strong>Inicio:</strong> Presentación impactante con hero
+              section
+            </li>
+            <li>
+              👤 <strong>Sobre mí:</strong> Biografía, intereses y habilidades
+            </li>
+            <li>
+              💼 <strong>Portafolio:</strong> Galería de proyectos con
+              descripciones
+            </li>
+            <li>
+              📧 <strong>Contacto:</strong> Formulario funcional con validación
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 3: OBJETIVOS DEL CURSO -->
+      <div class="slide">
+        <h2>🎯 Objetivos del Curso</h2>
+        <div class="objectives-list">
+          <ul style="list-style: none; margin-left: 0">
+            <li>
+              <span class="checkmark">✓</span>
+              <strong>Crear tu propio sitio web desde cero</strong> sin
+              necesidad de plantillas
+            </li>
+            <li>
+              <span class="checkmark">✓</span>
+              <strong>Dominar HTML5, CSS3 y JavaScript</strong> con práctica
+              intensiva
+            </li>
+            <li>
+              <span class="checkmark">✓</span>
+              <strong>Diseñar interfaces responsive</strong> que funcionen en
+              cualquier dispositivo
+            </li>
+            <li>
+              <span class="checkmark">✓</span>
+              <strong>Añadir interactividad con JavaScript</strong>
+              (formularios, menús, efectos)
+            </li>
+            <li>
+              <span class="checkmark">✓</span>
+              <strong>Gestionar proyectos con Git y GitHub</strong> como un
+              profesional
+            </li>
+            <li>
+              <span class="checkmark">✓</span>
+              <strong>Construir tu portafolio profesional</strong> para mostrar
+              tus habilidades
+            </li>
+          </ul>
+        </div>
+        <div
+          style="
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+          "
+        >
+          <p style="font-size: 1.4em; color: white">
+            <strong>Al finalizar:</strong> Tendrás las bases sólidas para
+            trabajar como desarrollador web frontend
+          </p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 4: ESTRUCTURA DEL CURSO -->
+      <div class="slide">
+        <h2>📚 Estructura del Curso (80 Horas)</h2>
+        <div class="module-grid">
+          <div class="module-card">
+            <h3>📖 Módulo 1</h3>
+            <p style="font-size: 1.1em">Fundamentos Web</p>
+            <span class="hours">6h</span>
+            <p style="font-size: 0.95em">
+              Internet, Cliente-Servidor, Configuración entorno
+            </p>
+          </div>
+          <div class="module-card">
+            <h3>🏗️ Módulo 2</h3>
+            <p style="font-size: 1.1em">HTML5</p>
+            <span class="hours">18h</span>
+            <p style="font-size: 0.95em">
+              Estructura, textos, imágenes, formularios, semántica
+            </p>
+          </div>
+          <div class="module-card">
+            <h3>🎨 Módulo 3</h3>
+            <p style="font-size: 1.1em">CSS3</p>
+            <span class="hours">26h</span>
+            <p style="font-size: 0.95em">
+              Estilos, tipografía, Flexbox, Responsive Design
+            </p>
+          </div>
+          <div class="module-card">
+            <h3>⚡ Módulo 4</h3>
+            <p style="font-size: 1.1em">JavaScript</p>
+            <span class="hours">22h</span>
+            <p style="font-size: 0.95em">
+              Variables, DOM, eventos, funciones, proyectos
+            </p>
+          </div>
+          <div class="module-card" style="grid-column: 1 / -1">
+            <h3>🔧 Módulo 5</h3>
+            <p style="font-size: 1.1em">Git & GitHub</p>
+            <span class="hours">8h</span>
+            <p style="font-size: 0.95em">
+              Control de versiones, repositorios, GitHub Desktop, comandos
+              básicos
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 5: METODOLOGÍA -->
+      <div class="slide">
+        <h2>📊 Metodología de Aprendizaje</h2>
+        <p style="font-size: 1.3em; text-align: center; margin: 20px 0">
+          Aprendizaje práctico y progresivo
+        </p>
+        <div class="methodology-chart">
+          <div class="methodology-item">
+            <span class="percentage">10%</span>
+            <span class="label">Introducción</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">
+              Contexto y objetivos
+            </p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">30%</span>
+            <span class="label">Teoría</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">
+              Conceptos con ejemplos visuales
+            </p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">40%</span>
+            <span class="label">Práctica Guiada</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">
+              Instructor + alumnos
+            </p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">20%</span>
+            <span class="label">Práctica Autónoma</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">
+              Ejercicios individuales
+            </p>
+          </div>
+        </div>
+        <div
+          style="
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+          "
+        >
+          <h3>✨ Características del curso:</h3>
+          <ul>
+            <li>
+              📝 <strong>Ejercicios prácticos</strong> después de cada concepto
+            </li>
+            <li>
+              🎯 <strong>Proyecto transversal</strong> que crece con cada módulo
+            </li>
+            <li>👨‍🏫 <strong>Soporte personalizado</strong> del instructor</li>
+            <li>
+              📚 <strong>Material descargable</strong> y código de ejemplo
+            </li>
+            <li>🏆 <strong>Certificado</strong> al completar el curso</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 6: HERRAMIENTAS -->
+      <div class="slide">
+        <h2>🛠️ Herramientas que Usarás</h2>
+        <p style="font-size: 1.3em; text-align: center; margin-bottom: 30px">
+          Todo gratuito y profesional
+        </p>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <div class="icon">💻</div>
+            <h3>Visual Studio Code</h3>
+            <p>Editor de código profesional (gratis)</p>
+            <p style="color: #667eea; margin-top: 10px">
+              + Extensiones esenciales
+            </p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">🌐</div>
+            <h3>Google Chrome</h3>
+            <p>Navegador con DevTools</p>
+            <p style="color: #667eea; margin-top: 10px">Depuración y testing</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">🔧</div>
+            <h3>Git</h3>
+            <p>Control de versiones</p>
+            <p style="color: #667eea; margin-top: 10px">
+              Comandos básicos + consola
+            </p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">🐙</div>
+            <h3>GitHub Desktop</h3>
+            <p>Interfaz gráfica para Git</p>
+            <p style="color: #667eea; margin-top: 10px">
+              Gestión visual de repositorios
+            </p>
+          </div>
+        </div>
+        <div
+          style="
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+          "
+        >
+          <p style="font-size: 1.3em">
+            <strong>💰 Inversión Total: 0€</strong>
+          </p>
+          <p style="font-size: 1.1em; margin-top: 10px">
+            Solo necesitas un ordenador con conexión a Internet
+          </p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 7: MÓDULOS HTML Y CSS -->
+      <div class="slide">
+        <h2>🏗️ HTML5 + 🎨 CSS3</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">HTML5 (18 horas)</h3>
+            <ul>
+              <li>
+                <strong>Fundamentos:</strong> Estructura, etiquetas, atributos
+              </li>
+              <li><strong>Textos y enlaces:</strong> Formato, navegación</li>
+              <li><strong>Multimedia:</strong> Imágenes, audio, video</li>
+              <li><strong>Formularios:</strong> Inputs, validación HTML5</li>
+              <li>
+                <strong>Semántica:</strong> header, nav, main, section, footer
+              </li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">CSS3 (26 horas)</h3>
+            <ul>
+              <li>
+                <strong>Fundamentos:</strong> Selectores, propiedades, colores
+              </li>
+              <li>
+                <strong>Tipografía:</strong> Google Fonts, jerarquía visual
+              </li>
+              <li><strong>Box Model:</strong> Padding, margin, border</li>
+              <li><strong>Flexbox:</strong> Layouts modernos y flexibles</li>
+              <li><strong>Responsive:</strong> Media queries, mobile-first</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          style="
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+          "
+        >
+          <h3 style="color: white; text-align: center; margin-bottom: 20px">
+            📱 Tu sitio funcionará perfecto en:
+          </h3>
+          <table class="comparison-table" style="border-color: white">
+            <tr>
+              <td class="header" style="background: rgba(255, 255, 255, 0.2)">
+                📱 Móviles
+              </td>
+              <td class="header" style="background: rgba(255, 255, 255, 0.2)">
+                📲 Tablets
+              </td>
+              <td class="header" style="background: rgba(255, 255, 255, 0.2)">
+                💻 Desktop
+              </td>
+            </tr>
+            <tr>
+              <td style="background: white; color: #10b981; font-size: 2em">
+                ✓
+              </td>
+              <td style="background: white; color: #10b981; font-size: 2em">
+                ✓
+              </td>
+              <td style="background: white; color: #10b981; font-size: 2em">
+                ✓
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 8: JAVASCRIPT -->
+      <div class="slide">
+        <h2>⚡ JavaScript (22 Horas)</h2>
+        <p style="font-size: 1.3em; text-align: center; margin-bottom: 30px">
+          Dale vida a tu web con interactividad
+        </p>
+        <div class="module-grid">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Fundamentos (6h)</h3>
+            <ul>
+              <li>Variables y tipos de datos</li>
+              <li>Operadores matemáticos</li>
+              <li>Concatenación y template literals</li>
+              <li>Console y debugging básico</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">DOM Manipulation (6h)</h3>
+            <ul>
+              <li>Seleccionar elementos del HTML</li>
+              <li>Modificar contenido y estilos</li>
+              <li>Añadir/eliminar clases CSS</li>
+              <li>Crear elementos dinámicamente</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Eventos (5h)</h3>
+            <ul>
+              <li>addEventListener y eventos comunes</li>
+              <li>Click, hover, submit, keydown</li>
+              <li>Botones interactivos</li>
+              <li>Mostrar/ocultar elementos</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Lógica (5h)</h3>
+            <ul>
+              <li>Condicionales (if/else)</li>
+              <li>Funciones reutilizables</li>
+              <li>Arrays y bucles</li>
+              <li>LocalStorage (guardar datos)</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          style="
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 30px;
+          "
+        >
+          <h3 style="color: #f5576c; text-align: center">
+            🎯 Proyectos JavaScript que crearás:
+          </h3>
+          <ul style="columns: 2; margin-top: 15px">
+            <li>✓ Contador de clicks</li>
+            <li>✓ Formulario con validación</li>
+            <li>✓ Menú hamburguesa responsive</li>
+            <li>✓ Galería con lightbox</li>
+            <li>✓ Lista de tareas (To-Do)</li>
+            <li>✓ Tema claro/oscuro</li>
+          </ul>
+        </div>
+      </div>
+      <!-- DIAPOSITIVA 9: GIT & GITHUB -->
+      <div class="slide">
+        <h2>🔧 Git & GitHub (8 Horas)</h2>
+        <p style="font-size: 1.3em; text-align: center; margin-bottom: 30px">
+          Control de versiones profesional
+        </p>
+        <div class="git-section">
+          <h3>¿Por qué Git?</h3>
+          <ul>
+            <li>
+              📸 <strong>Guarda el historial</strong> de todos tus cambios (como
+              puntos de guardado)
+            </li>
+            <li>↩️ <strong>Vuelve atrás</strong> si algo sale mal</li>
+            <li>👥 <strong>Colabora en equipo</strong> sin conflictos</li>
+            <li>
+              💼 <strong>Herramienta profesional</strong> usada en todas las
+              empresas
+            </li>
+          </ul>
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+          "
+        >
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">💻 Comandos Básicos</h3>
+            <ul>
+              <li><code>git init</code> - Inicializar repositorio</li>
+              <li><code>git add</code> - Añadir cambios</li>
+              <li><code>git commit</code> - Guardar versión</li>
+              <li><code>git status</code> - Ver estado</li>
+              <li><code>git log</code> - Ver historial</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">🐙 GitHub Desktop</h3>
+            <ul>
+              <li>✨ Interfaz gráfica intuitiva</li>
+              <li>📂 Gestión visual de repositorios</li>
+              <li>🔍 Ver cambios fácilmente</li>
+              <li>💾 Commits con un click</li>
+              <li>🌐 Sincronizar con GitHub.com</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          style="
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+          "
+        >
+          <h3 style="color: white">
+            🚀 Tu proyecto en GitHub = Tu Carta de Presentación
+          </h3>
+          <p style="font-size: 1.2em; color: white; margin-top: 15px">
+            Los empleadores buscan desarrolladores con proyectos públicos en
+            GitHub
+          </p>
+        </div>
+      </div>
+      <!-- DIAPOSITIVA 10: PRÓXIMOS PASOS -->
+      <div class="slide">
+        <h2>🎓 ¿Listo para Empezar?</h2>
+        <div
+          style="
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 30px 0;
+          "
+        >
+          <h3 style="color: white; font-size: 2.5em; margin-bottom: 20px">
+            80 Horas que Cambiarán tu Futuro
+          </h3>
+          <p style="font-size: 1.4em; margin: 20px 0; color: white">
+            De cero conocimientos a desarrollador web con proyecto real
+          </p>
         </div>
 
-        <!-- DIAPOSITIVA 2: ¿QUÉ VAS A CREAR? -->
-        <div class="slide">
-            <h2>🚀 ¿Qué vas a crear?</h2>
-            <div class="project-showcase">
-                <h3>Tu Sitio Web Personal Completo</h3>
-                <p style="font-size: 1.3em; margin: 20px 0;">Un proyecto profesional con múltiples páginas interactivas</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-box">
-                    <div class="icon">📱</div>
-                    <h3 style="color: white; font-size: 1.3em;">Responsive</h3>
-                    <p>Se adapta a móviles, tablets y escritorio</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon">⚡</div>
-                    <h3 style="color: white; font-size: 1.3em;">Interactivo</h3>
-                    <p>Formularios, menús, galerías dinámicas</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon">🎨</div>
-                    <h3 style="color: white; font-size: 1.3em;">Profesional</h3>
-                    <p>Diseño moderno y atractivo</p>
-                </div>
-            </div>
-            <div class="objectives-list">
-                <h3>Páginas incluidas:</h3>
-                <ul>
-                    <li>🏠 <strong>Inicio:</strong> Presentación impactante con hero section</li>
-                    <li>👤 <strong>Sobre mí:</strong> Biografía, intereses y habilidades</li>
-                    <li>💼 <strong>Portafolio:</strong> Galería de proyectos con descripciones</li>
-                    <li>📧 <strong>Contacto:</strong> Formulario funcional con validación</li>
-                </ul>
-            </div>
+        <div
+          class="features-grid"
+          style="grid-template-columns: repeat(2, 1fr)"
+        >
+          <div class="feature-box">
+            <div class="icon">💼</div>
+            <h3 style="color: white; font-size: 1.4em">
+              Portfolio Profesional
+            </h3>
+            <p>Tu sitio web completo para mostrar</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🏆</div>
+            <h3 style="color: white; font-size: 1.4em">Certificado</h3>
+            <p>Acredita tus nuevas habilidades</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">👨‍🏫</div>
+            <h3 style="color: white; font-size: 1.4em">Soporte Continuo</h3>
+            <p>Ayuda personalizada del instructor</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🌐</div>
+            <h3 style="color: white; font-size: 1.4em">GitHub Ready</h3>
+            <p>Proyecto público para empleadores</p>
+          </div>
         </div>
 
-        <!-- DIAPOSITIVA 3: OBJETIVOS DEL CURSO -->
-        <div class="slide">
-            <h2>🎯 Objetivos del Curso</h2>
-            <div class="objectives-list">
-                <ul style="list-style: none; margin-left: 0;">
-                    <li><span class="checkmark">✓</span> <strong>Crear tu propio sitio web desde cero</strong> sin necesidad de plantillas</li>
-                    <li><span class="checkmark">✓</span> <strong>Dominar HTML5, CSS3 y JavaScript</strong> con práctica intensiva</li>
-                    <li><span class="checkmark">✓</span> <strong>Diseñar interfaces responsive</strong> que funcionen en cualquier dispositivo</li>
-                    <li><span class="checkmark">✓</span> <strong>Añadir interactividad con JavaScript</strong> (formularios, menús, efectos)</li>
-                    <li><span class="checkmark">✓</span> <strong>Gestionar proyectos con Git y GitHub</strong> como un profesional</li>
-                    <li><span class="checkmark">✓</span> <strong>Construir tu portafolio profesional</strong> para mostrar tus habilidades</li>
-                </ul>
-            </div>
-            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin-top: 30px; text-align: center;">
-                <p style="font-size: 1.4em; color: white;"><strong>Al finalizar:</strong> Tendrás las bases sólidas para trabajar como desarrollador web frontend</p>
-            </div>
+        <div class="objectives-list" style="margin-top: 30px">
+          <h3 style="color: #667eea; text-align: center; margin-bottom: 20px">
+            📋 Requisitos para el Curso
+          </h3>
+          <ul style="list-style: none; margin-left: 0">
+            <li>✓ <strong>Ordenador</strong> (Windows, Mac o Linux)</li>
+            <li>✓ <strong>Conexión a Internet</strong></li>
+            <li>✓ <strong>Ganas de aprender</strong> (lo más importante)</li>
+            <li>✓ <strong>Ningún conocimiento previo</strong> necesario</li>
+          </ul>
         </div>
 
-        <!-- DIAPOSITIVA 4: ESTRUCTURA DEL CURSO -->
-        <div class="slide">
-            <h2>📚 Estructura del Curso (80 Horas)</h2>
-            <div class="module-grid">
-                <div class="module-card">
-                    <h3>📖 Módulo 1</h3>
-                    <p style="font-size: 1.1em;">Fundamentos Web</p>
-                    <span class="hours">6h</span>
-                    <p style="font-size: 0.95em;">Internet, Cliente-Servidor, Configuración entorno</p>
-                </div>
-                <div class="module-card">
-                    <h3>🏗️ Módulo 2</h3>
-                    <p style="font-size: 1.1em;">HTML5</p>
-                    <span class="hours">18h</span>
-                    <p style="font-size: 0.95em;">Estructura, textos, imágenes, formularios, semántica</p>
-                </div>
-                <div class="module-card">
-                    <h3>🎨 Módulo 3</h3>
-                    <p style="font-size: 1.1em;">CSS3</p>
-                    <span class="hours">26h</span>
-                    <p style="font-size: 0.95em;">Estilos, tipografía, Flexbox, Responsive Design</p>
-                </div>
-                <div class="module-card">
-                    <h3>⚡ Módulo 4</h3>
-                    <p style="font-size: 1.1em;">JavaScript</p>
-                    <span class="hours">22h</span>
-                    <p style="font-size: 0.95em;">Variables, DOM, eventos, funciones, proyectos</p>
-                </div>
-                <div class="module-card" style="grid-column: 1 / -1;">
-                    <h3>🔧 Módulo 5</h3>
-                    <p style="font-size: 1.1em;">Git & GitHub</p>
-                    <span class="hours">8h</span>
-                    <p style="font-size: 0.95em;">Control de versiones, repositorios, GitHub Desktop, comandos básicos</p>
-                </div>
-            </div>
+        <div
+          style="
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 30px;
+          "
+        >
+          <h3 style="color: #f5576c; font-size: 2em; margin-bottom: 20px">
+            🚀 ¡Inscríbete Ahora!
+          </h3>
+          <p style="font-size: 1.3em; margin: 15px 0">
+            Curso CISE - Desarrollo Web Profesional
+          </p>
+          <p
+            style="
+              font-size: 1.5em;
+              font-weight: bold;
+              color: #764ba2;
+              margin: 20px 0;
+            "
+          >
+            80 Horas • HTML5 • CSS3 • JavaScript • Git
+          </p>
+          <div style="margin-top: 30px">
+            <p style="font-size: 1.2em; color: #666">
+              📧 Más información: contacto@cise.es
+            </p>
+            <p style="font-size: 1.2em; color: #666; margin-top: 10px">
+              🌐 www.cise.es
+            </p>
+          </div>
         </div>
+      </div>
 
-        <!-- DIAPOSITIVA 5: METODOLOGÍA -->
-        <div class="slide">
-            <h2>📊 Metodología de Aprendizaje</h2>
-            <p style="font-size: 1.3em; text-align: center; margin: 20px 0;">Aprendizaje práctico y progresivo</p>
-            <div class="methodology-chart">
-                <div class="methodology-item">
-                    <span class="percentage">10%</span>
-                    <span class="label">Introducción</span>
-                    <p style="font-size: 1em; color: #888; margin-top: 10px;">Contexto y objetivos</p>
-                </div>
-                <div class="methodology-item">
-                    <span class="percentage">30%</span>
-                    <span class="label">Teoría</span>
-                    <p style="font-size: 1em; color: #888; margin-top: 10px;">Conceptos con ejemplos visuales</p>
-                </div>
-                <div class="methodology-item">
-                    <span class="percentage">40%</span>
-                    <span class="label">Práctica Guiada</span>
-                    <p style="font-size: 1em; color: #888; margin-top: 10px;">Instructor + alumnos</p>
-                </div>
-                <div class="methodology-item">
-                    <span class="percentage">20%</span>
-                    <span class="label">Práctica Autónoma</span>
-                    <p style="font-size: 1em; color: #888; margin-top: 10px;">Ejercicios individuales</p>
-                </div>
-            </div>
-            <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-top: 30px;">
-                <h3>✨ Características del curso:</h3>
-                <ul>
-                    <li>📝 <strong>Ejercicios prácticos</strong> después de cada concepto</li>
-                    <li>🎯 <strong>Proyecto transversal</strong> que crece con cada módulo</li>
-                    <li>👨‍🏫 <strong>Soporte personalizado</strong> del instructor</li>
-                    <li>📚 <strong>Material descargable</strong> y código de ejemplo</li>
-                    <li>🏆 <strong>Certificado</strong> al completar el curso</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- DIAPOSITIVA 6: HERRAMIENTAS -->
-        <div class="slide">
-            <h2>🛠️ Herramientas que Usarás</h2>
-            <p style="font-size: 1.3em; text-align: center; margin-bottom: 30px;">Todo gratuito y profesional</p>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <div class="icon">💻</div>
-                    <h3>Visual Studio Code</h3>
-                    <p>Editor de código profesional (gratis)</p>
-                    <p style="color: #667eea; margin-top: 10px;">+ Extensiones esenciales</p>
-                </div>
-                <div class="tool-card">
-                    <div class="icon">🌐</div>
-                    <h3>Google Chrome</h3>
-                    <p>Navegador con DevTools</p>
-                    <p style="color: #667eea; margin-top: 10px;">Depuración y testing</p>
-                </div>
-                <div class="tool-card">
-                    <div class="icon">🔧</div>
-                    <h3>Git</h3>
-                    <p>Control de versiones</p>
-                    <p style="color: #667eea; margin-top: 10px;">Comandos básicos + consola</p>
-                </div>
-                <div class="tool-card">
-                    <div class="icon">🐙</div>
-                    <h3>GitHub Desktop</h3>
-                    <p>Interfaz gráfica para Git</p>
-                    <p style="color: #667eea; margin-top: 10px;">Gestión visual de repositorios</p>
-                </div>
-            </div>
-            <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 25px; border-radius: 15px; margin-top: 30px; text-align: center;">
-                <p style="font-size: 1.3em;"><strong>💰 Inversión Total: 0€</strong></p>
-                <p style="font-size: 1.1em; margin-top: 10px;">Solo necesitas un ordenador con conexión a Internet</p>
-            </div>
-        </div>
-
-        <!-- DIAPOSITIVA 7: MÓDULOS HTML Y CSS -->
-        <div class="slide">
-            <h2>🏗️ HTML5 + 🎨 CSS3</h2>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-                <div style="background: #f8f9fa; padding: 25px; border-radius: 15px;">
-                    <h3 style="color: #667eea;">HTML5 (18 horas)</h3>
-                    <ul>
-                        <li><strong>Fundamentos:</strong> Estructura, etiquetas, atributos</li>
-                        <li><strong>Textos y enlaces:</strong> Formato, navegación</li>
-                        <li><strong>Multimedia:</strong> Imágenes, audio, video</li>
-                        <li><strong>Formularios:</strong> Inputs, validación HTML5</li>
-                        <li><strong>Semántica:</strong> header, nav, main, section, footer</li>
-                    </ul>
-                </div>
-                <div style="background: #f8f9fa; padding: 25px; border-radius: 15px;">
-                    <h3 style="color: #764ba2;">CSS3 (26 horas)</h3>
-                    <ul>
-                        <li><strong>Fundamentos:</strong> Selectores, propiedades, colores</li>
-                        <li><strong>Tipografía:</strong> Google Fonts, jerarquía visual</li>
-                        <li><strong>Box Model:</strong> Padding, margin, border</li>
-                        <li><strong>Flexbox:</strong> Layouts modernos y flexibles</li>
-                        <li><strong>Responsive:</strong> Media queries, mobile-first</li>
-                    </ul>
-                </div>
-            </div>
-            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin-top: 30px;">
-                <h3 style="color: white; text-align: center; margin-bottom: 20px;">📱 Tu sitio funcionará perfecto en:</h3>
-                <table class="comparison-table" style="border-color: white;">
-                    <tr>
-                        <td class="header" style="background: rgba(255,255,255,0.2);">📱 Móviles</td>
-                        <td class="header" style="background: rgba(255,255,255,0.2);">📲 Tablets</td>
-                        <td class="header" style="background: rgba(255,255,255,0.2);">💻 Desktop</td>
-                    </tr>
-                    <tr>
-                        <td style="background: white; color: #10b981; font-size: 2em;">✓</td>
-                        <td style="background: white; color: #10b981; font-size: 2em;">✓</td>
-                        <td style="background: white; color: #10b981; font-size: 2em;">✓</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <!-- DIAPOSITIVA 8: JAVASCRIPT -->
-        <div class="slide">
-            <h2>⚡ JavaScript (22 Horas)</h2>
-            <p style="font-size: 1.3em; text-align: center; margin-bottom: 30px;">Dale vida a tu web con interactividad</p>
-            <div class="module-grid">
-                <div style="background: #f8f9fa; padding: 25px; border-radius: 15px;">
-                    <h3 style="color: #667eea;">Fundamentos (6h)</h3>
-                    <ul>
-                        <li>Variables y tipos de datos</li>
-                        <li>Operadores matemáticos</li>
-                        <li>Concatenación y template literals</li>
-                        <li>Console y debugging básico</li>
-                    </ul>
-                </div>
-                <div style="background: #f8f9fa; padding: 25px; border-radius: 15px;">
-                    <h3 style="color: #764ba2;">DOM Manipulation (6h)</h3>
-                    <ul>
-                        <li>Seleccionar elementos del HTML</li>
-                        <li>Modificar contenido y estilos</li>
-                        <li>Añadir/eliminar clases CSS</li>
-                        <li>Crear elementos dinámicamente</li>
-                    </ul>
-                </div>
-                <div style="background: #f8f9fa; padding: 25px; border-radius: 15px;">
-                    <h3 style="color: #667eea;">Eventos (5h)</h3>
-                    <ul>
-                        <li>addEventListener y eventos comunes</li>
-                        <li>Click, hover, submit, keydown</li>
-                        <li>Botones interactivos</li>
-                        <li>Mostrar/ocultar elementos</li>
-                    </ul>
-                </div>
-                <div style="background: #f8f9fa; padding: 25px; border-radius: 15px;">
-                    <h3 style="color: #764ba2;">Lógica (5h)</h3>
-                    <ul>
-                        <li>Condicionales (if/else)</li>
-                        <li>Funciones reutilizables</li>
-                        <li>Arrays y bucles</li>
-                        <li>LocalStorage (guardar datos)</li>
-                    </ul>
-                </div>
-            </div>
-            <div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 25px; border-radius: 15px; margin-top: 30px;">
-                <h3 style="color: #f5576c; text-align: center;">🎯 Proyectos JavaScript que crearás:</h3>
-                <ul style="columns: 2; margin-top: 15px;">
-                    <li>✓ Contador de clicks</li>
-                    <li>✓ Formulario con validación</li>
-                    <li>✓ Menú hamburguesa responsive</li>
-                    <li>✓ Galería con lightbox</li>
-                    <li>✓ Lista de tareas (To-Do)</li>
-                    <li>✓ Tema claro/oscuro</li>
-                </ul>
-            </div>
-        </div>
-        <script src="js/script.js"></script>
+      <!-- NAVEGACIÓN -->
+      <div class="navigation">
+        <button id="prevBtn" onclick="changeSlide(-1)">← Anterior</button>
+        <span class="slide-number">
+          <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
+        </span>
+        <button id="nextBtn" onclick="changeSlide(1)">Siguiente →</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
