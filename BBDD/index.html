@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introducción a Bases de Datos - Versión Condensada</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <body>
+    <div class="presentation-container">
+        <!-- DIAPOSITIVA 1: PORTADA -->
+        <div class="slide active">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 500px;">
+                <h1 style="font-size: 4em; margin-bottom: 40px;">BASES DE DATOS</h1>
+                <p style="font-size: 1.8em; text-align: center; color: #764ba2; font-weight: bold;">
+                    Introducción y Fundamentos
+                </p>
+                <div style="margin-top: 50px; text-align: center;">
+                    <p style="font-size: 1.3em; color: #666;">Curso CISE - 80 Horas</p>
+                    <p style="font-size: 1.1em; color: #888; margin-top: 10px;">Sesión de Presentación</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 2: CONCEPTO Y DEFINICIÓN -->
+        <div class="slide">
+            <h2>💾 ¿Qué es una Base de Datos?</h2>
+            <div class="definition-box">
+                <p><strong>Colección de datos relacionados lógicamente</strong> entre sí, con una definición y descripción comunes, estructurados de manera específica.</p>
+            </div>
+            <div class="card">
+                <h3>Características Clave:</h3>
+                <ul>
+                    <li><span class="highlight">Datos Estructurados:</span> Organización sistemática de la información</li>
+                    <li><span class="highlight">Entidades e Interrelaciones:</span> Representa objetos del mundo real</li>
+                    <li><span class="highlight">Redundancia Mínima:</span> Evita duplicación innecesaria</li>
+                    <li><span class="highlight">Acceso Eficiente:</span> Múltiples usuarios y aplicaciones</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 3: EVOLUCIÓN HISTÓRICA -->
+        <div class="slide">
+            <h2>📅 Evolución Histórica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <strong>1950s</strong>
+                    <p>Cintas Magnéticas<br>Automatización de nóminas</p>
+                </div>
+                <div class="timeline-item">
+                    <strong>1960s</strong>
+                    <p>Primeras BD<br>Jerárquicas y en Red<br>COBOL (1967)</p>
+                </div>
+                <div class="timeline-item">
+                    <strong>1970s</strong>
+                    <p>Modelo Relacional<br>Edgar Codd (IBM)<br>System R y Oracle</p>
+                </div>
+                <div class="timeline-item">
+                    <strong>1980s-90s</strong>
+                    <p>SQL Estándar<br>BD Objetos<br>Objeto-Relacionales</p>
+                </div>
+                <div class="timeline-item">
+                    <strong>2000s+</strong>
+                    <p>Cloud Computing<br>Escalabilidad<br>Accesibilidad Global</p>
+                </div>
+            </div>
+            <div class="card">
+                <p><strong>Hito Clave:</strong> Edgar Frank Codd (IBM) estableció las bases del modelo relacional y las 12 reglas fundamentales que revolucionaron la gestión de datos.</p>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 4: VENTAJAS Y DESVENTAJAS -->
+        <div class="slide">
+            <h2>⚖️ Ventajas vs Desventajas</h2>
+            <div class="pros-cons">
+                <div class="pros">
+                    <h3 style="color: white;">✓ VENTAJAS</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>Acceso múltiple y concurrente</li>
+                        <li>Seguridad y confidencialidad</li>
+                        <li>Independencia física y lógica</li>
+                        <li>Reducción de redundancia</li>
+                        <li>Integridad de datos</li>
+                        <li>Consultas directas</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h3 style="color: white;">✗ DESVENTAJAS</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>Personal cualificado necesario</li>
+                        <li>Hardware adicional costoso</li>
+                        <li>Inversión inicial elevada</li>
+                        <li>Rentabilidad a largo plazo</li>
+                        <li>Ausencia de estándares reales</li>
+                        <li>Dependencia de proveedores</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 5: SGBD - CONCEPTO Y SQL -->
+        <div class="slide">
+            <h2>🔧 Sistemas Gestores de Bases de Datos (SGBD)</h2>
+            <div class="definition-box">
+                <p><strong>Conjunto coordinado de programas</strong> que permiten a usuarios y administradores definir, manipular y gestionar bases de datos, manteniendo su integridad, confidencialidad y seguridad.</p>
+            </div>
+            <h3>Tres Funciones Esenciales:</h3>
+            <div class="card">
+                <p><strong>1. DEFINICIÓN (DDL):</strong> Especificar tipos de datos, estructuras y restricciones</p>
+            </div>
+            <div class="card">
+                <p><strong>2. MANIPULACIÓN (DML):</strong> Consultas, actualizaciones, inserciones y borrados</p>
+            </div>
+            <div class="card">
+                <p><strong>3. CONTROL (DCL):</strong> Permisos, seguridad y gestión de usuarios</p>
+            </div>
+            <div class="course-badge">
+                🎯 En el curso trabajaremos con <span class="sql-badge">SQL</span> (Structured Query Language)<br>
+                el lenguaje estándar para gestionar bases de datos relacionales
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 6: BENEFICIOS DEL SGBD -->
+        <div class="slide">
+            <h2>✨ Beneficios del SGBD</h2>
+            <div class="index-grid">
+                <div class="index-item">Abstracción de Datos</div>
+                <div class="index-item">Independencia Física</div>
+                <div class="index-item">Reducción de Redundancia</div>
+                <div class="index-item">Integridad de Datos</div>
+                <div class="index-item">Seguridad Mejorada</div>
+                <div class="index-item">Eficiencia del Sistema</div>
+                <div class="index-item">Accesos Concurrentes</div>
+                <div class="index-item">Recuperación ante Fallos</div>
+            </div>
+            <div class="card" style="margin-top: 30px;">
+                <p><strong>Valor Principal:</strong> Los SGBD proporcionan una visión abstracta de los datos, ocultando la complejidad del almacenamiento físico y facilitando el intercambio de información entre sistemas.</p>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 7: ADMINISTRACIÓN - ROLES -->
+        <div class="slide">
+            <h2>👥 Roles de Administración</h2>
+            <div class="role-card">
+                <h3 style="color: #667eea;">Administrador de Datos (DA)</h3>
+                <ul>
+                    <li><strong>Responsabilidad central sobre los datos</strong></li>
+                    <li>Comprende la importancia estratégica de los datos para la empresa</li>
+                    <li>Define QUÉ datos deben almacenarse</li>
+                    <li>Establece políticas de mantenimiento y acceso</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <h3 style="color: #764ba2;">Administrador de Base de Datos (DBA)</h3>
+                <ul>
+                    <li><strong>Responsable de la implementación técnica</strong></li>
+                    <li>Define esquemas lógicos y físicos</li>
+                    <li>Gestiona estructura de almacenamiento y métodos de acceso</li>
+                    <li>Asigna privilegios y gestiona seguridad</li>
+                    <li>Mantiene esquemas y garantiza recuperación ante fallos</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 8: DESAFÍOS Y NORMALIZACIÓN -->
+        <div class="slide">
+            <h2>⚠️ Desafíos en el Diseño de BD</h2>
+            <div class="card">
+                <h3>Complejidad de la Representación</h3>
+                <p>Transformar objetos del mundo real en representaciones digitales que permitan acceso eficiente es un reto fundamental del diseño de bases de datos.</p>
+            </div>
+            <div class="pros-cons" style="margin-top: 30px;">
+                <div class="cons">
+                    <h3 style="color: white;">REDUNDANCIAS</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>Duplicación de datos</li>
+                        <li>Uso ineficiente del almacenamiento</li>
+                        <li>Dificultad en actualizaciones</li>
+                        <li>Inconsistencias potenciales</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h3 style="color: white;">INCOHERENCIAS</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>Datos contradictorios</li>
+                        <li>Falta de estandarización</li>
+                        <li>Pérdida de integridad</li>
+                        <li>Errores en consultas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="technique-box">
+                <h3 style="color: #f5576c; margin-top: 0;">🎯 Técnicas de Normalización</h3>
+                <p style="margin-bottom: 10px;"><strong>En el curso aprenderás a aplicar formas normales:</strong></p>
+                <ul>
+                    <li><strong>1FN:</strong> Identificar y eliminar datos redundantes</li>
+                    <li><strong>2FN:</strong> Crear tablas sin dependencias funcionales parciales</li>
+                    <li><strong>3FN:</strong> Eliminar dependencias transitivas</li>
+                    <li><strong>Boyce-Codd:</strong> Optimización avanzada de estructuras</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 9: MODELOS DE BD Y MODELO E/R -->
+        <div class="slide">
+            <h2>🗂️ Modelos de Bases de Datos</h2>
+            <div class="table-model">
+                <h3 style="color: #667eea; margin-bottom: 20px;">Clasificación Tradicional:</h3>
+                <div class="card">
+                    <p><strong>📊 Jerárquico:</strong> Estructura de árbol con relaciones padre-hijo (uso limitado actual)</p>
+                </div>
+                <div class="card">
+                    <p><strong>🕸️ En Red:</strong> Permite múltiples relaciones entre registros (uso histórico)</p>
+                </div>
+                <div class="card" style="border-left: 6px solid #10b981;">
+                    <p><strong>🏆 RELACIONAL (Predominante):</strong> Organiza datos en tablas con filas y columnas</p>
+                    <ul style="margin-top: 15px;">
+                        <li><span class="highlight">Tablas/Relaciones:</span> Estructuras con columnas (atributos) y filas (tuplas)</li>
+                        <li><span class="highlight">Claves Primarias:</span> Identificadores únicos de registros</li>
+                        <li><span class="highlight">Claves Foráneas:</span> Referencias entre tablas</li>
+                        <li><span class="highlight">Dominio:</span> Conjunto de atributos de una entidad</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <p><strong>🔷 Objeto-Relacional:</strong> Extensión del relacional para POO</p>
+                </div>
+            </div>
+            <div class="card-special">
+                <h3 style="color: #f5576c; margin-top: 0;">📐 Modelo Entidad-Relación (E/R)</h3>
+                <p><strong>En el curso trabajarás con el Modelo E/R para diseñar bases de datos:</strong></p>
+                <ul style="margin-top: 10px;">
+                    <li>Identificar <strong>entidades</strong> (objetos del mundo real)</li>
+                    <li>Definir <strong>atributos</strong> (propiedades de las entidades)</li>
+                    <li>Establecer <strong>relaciones</strong> y su cardinalidad (1:1, 1:N, N:M)</li>
+                    <li>Diseñar diagramas E/R antes de implementar en SQL</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- DIAPOSITIVA 10: CIERRE -->
+        <div class="slide">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 500px;">
+                <h1 style="font-size: 3.5em; margin-bottom: 40px;">Lo que Aprenderás</h1>
+                <div class="index-grid" style="max-width: 900px;">
+                    <div class="index-item">Diseño Conceptual: Modelo E/R</div>
+                    <div class="index-item">SQL: DDL, DML, DCL</div>
+                    <div class="index-item">Técnicas de Normalización</div>
+                    <div class="index-item">Consultas y JOIN Avanzados</div>
+                    <div class="index-item">Administración de Bases de Datos</div>
+                    <div class="index-item">Optimización y Buenas Prácticas</div>
+                </div>
+                <div style="margin-top: 50px; text-align: center;">
+                    <p style="font-size: 1.8em; color: #764ba2; font-weight: bold; margin-bottom: 20px;">
+                        Curso de 80 Horas
+                    </p>
+                    <p style="font-size: 1.3em; color: #666;">
+                        De los fundamentos teóricos a la práctica profesional
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVEGACIÓN -->
+        <div class="navigation">
+            <button id="prevBtn" onclick="changeSlide(-1)">← Anterior</button>
+            <span class="slide-number">
+                Diapositiva <span id="currentSlide">1</span> de 10
+            </span>
+            <button id="nextBtn" onclick="changeSlide(1)">Siguiente →</button>
+        </div>
+    </div>    <script src="js/script.js"></script>
+  </body>
+</html>
