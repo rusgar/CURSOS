@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Fundamentos - 40 Horas</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="presentation-container">
+      <!-- DIAPOSITIVA 1: PORTADA -->
+      <div class="slide active">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 500px;">
+          <h1 style="font-size: 4em; margin-bottom: 20px">PYTHON</h1>
+          <h1 style="font-size: 3em; margin-bottom: 40px; color: #764ba2">FUNDAMENTOS</h1>
+          <div style="text-align: center">
+            <span class="tech-badge">Python 🐍</span>
+            <span class="tech-badge">Jupyter Notebook</span>
+            <span class="tech-badge">40 Horas</span>
+          </div>
+          <div style="margin-top: 50px; text-align: center">
+            <p style="font-size: 1.8em; color: #764ba2; font-weight: bold">Curso CISE - 40 Horas</p>
+            <p style="font-size: 1.3em; color: #666; margin-top: 10px">De cero a programador Python</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 2: ¿QUÉ VAS A APRENDER? -->
+      <div class="slide">
+        <h2>🐍 ¿Qué vas a aprender?</h2>
+        <div class="project-showcase">
+          <h3>Tu Primer Lenguaje de Programación</h3>
+          <p style="font-size: 1.3em; margin: 20px 0">Aprende Python desde cero con Jupyter Notebook</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="icon">💻</div>
+            <h3 style="color: white; font-size: 1.3em">Fundamentos</h3>
+            <p>Variables, tipos de datos, operadores</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🔄</div>
+            <h3 style="color: white; font-size: 1.3em">Control de Flujo</h3>
+            <p>Bucles, condicionales, comprehensions</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">⚙️</div>
+            <h3 style="color: white; font-size: 1.3em">Funciones</h3>
+            <p>Reutilización de código</p>
+          </div>
+        </div>
+        <div class="objectives-list">
+          <h3>Contenido principal:</h3>
+          <ul>
+            <li>📦 <strong>Estructuras de Datos:</strong> Listas, tuplas, diccionarios, sets</li>
+            <li>🎨 <strong>POO:</strong> Clases, objetos, herencia, polimorfismo</li>
+            <li>⚡ <strong>Programación Funcional:</strong> Lambda, map, filter, callbacks</li>
+            <li>📓 <strong>Jupyter Notebook:</strong> Entorno interactivo profesional</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 3: OBJETIVOS DEL CURSO -->
+      <div class="slide">
+        <h2>🎯 Objetivos del Curso</h2>
+        <div class="objectives-list">
+          <ul style="list-style: none; margin-left: 0">
+            <li><span class="checkmark">✔</span> <strong>Entender los conceptos básicos</strong> de programación desde cero</li>
+            <li><span class="checkmark">✔</span> <strong>Dominar la sintaxis de Python</strong> con práctica intensiva</li>
+            <li><span class="checkmark">✔</span> <strong>Trabajar con estructuras de datos</strong> listas, tuplas, diccionarios, sets</li>
+            <li><span class="checkmark">✔</span> <strong>Crear funciones reutilizables</strong> puras, impuras, lambda</li>
+            <li><span class="checkmark">✔</span> <strong>Introducción a POO</strong> clases, objetos, herencia</li>
+            <li><span class="checkmark">✔</span> <strong>Programación Funcional básica</strong> map, filter, callbacks</li>
+          </ul>
+        </div>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin-top: 30px; text-align: center;">
+          <p style="font-size: 1.4em; color: white"><strong>Al finalizar:</strong> Podrás elegir entre Python Avanzado (POO) o Python para Data Science</p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 4: ESTRUCTURA DEL CURSO -->
+      <div class="slide">
+        <h2>📚 Estructura del Curso (40 Horas)</h2>
+        <div class="module-grid">
+          <div class="module-card">
+            <h3>🐍 Módulo 1</h3>
+            <p style="font-size: 1.1em">Introducción a Python</p>
+            <span class="hours">4h</span>
+            <p style="font-size: 0.95em">¿Qué es Python?, Variables, tipos de datos, funciones básicas</p>
+          </div>
+          <div class="module-card">
+            <h3>📦 Módulo 2</h3>
+            <p style="font-size: 1.1em">Tipos y Operaciones</p>
+            <span class="hours">6h</span>
+            <p style="font-size: 0.95em">Strings, listas, tuplas, diccionarios, sets, métodos</p>
+          </div>
+          <div class="module-card">
+            <h3>🔄 Módulo 3</h3>
+            <p style="font-size: 1.1em">Control de Flujo</p>
+            <span class="hours">6h</span>
+            <p style="font-size: 0.95em">Loops (for, while), comprehensions, condicionales</p>
+          </div>
+          <div class="module-card">
+            <h3>📋 Módulo 4</h3>
+            <p style="font-size: 1.1em">Contenedores Avanzados</p>
+            <span class="hours">6h</span>
+            <p style="font-size: 0.95em">Mutabilidad, Truthy/Falsey, Packing/Unpacking</p>
+          </div>
+          <div class="module-card">
+            <h3>🎨 Módulo 5</h3>
+            <p style="font-size: 1.1em">POO Básico</p>
+            <span class="hours">10h</span>
+            <p style="font-size: 0.95em">Clases, objetos, herencia, polimorfismo, encapsulación</p>
+          </div>
+          <div class="module-card">
+            <h3>⚡ Módulo 6</h3>
+            <p style="font-size: 1.1em">Programación Funcional</p>
+            <span class="hours">8h</span>
+            <p style="font-size: 0.95em">Lambda, map, filter, callbacks, arity</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 5: METODOLOGÍA -->
+      <div class="slide">
+        <h2>📊 Metodología de Aprendizaje</h2>
+        <p style="font-size: 1.3em; text-align: center; margin: 20px 0">Aprendizaje práctico con Jupyter Notebook</p>
+        <div class="methodology-chart">
+          <div class="methodology-item">
+            <span class="percentage">10%</span>
+            <span class="label">Introducción</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Contexto y objetivos</p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">30%</span>
+            <span class="label">Teoría</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Conceptos con ejemplos</p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">40%</span>
+            <span class="label">Práctica Guiada</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Código en Jupyter</p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">20%</span>
+            <span class="label">Ejercicios</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Práctica individual</p>
+          </div>
+        </div>
+        <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-top: 30px;">
+          <h3>✨ Características del curso:</h3>
+          <ul>
+            <li>📓 <strong>Todo en Jupyter Notebook</strong> código interactivo</li>
+            <li>💡 <strong>Ejemplos visuales</strong> aprende viendo</li>
+            <li>🎯 <strong>Ejercicios prácticos</strong> después de cada tema</li>
+            <li>👨‍🏫 <strong>Soporte personalizado</strong> del instructor</li>
+            <li>🏆 <strong>Certificado</strong> al completar el curso</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 6: HERRAMIENTAS -->
+      <div class="slide">
+        <h2>🛠️ Herramientas que Usarás</h2>
+        <p style="font-size: 1.3em; text-align: center; margin-bottom: 30px">Todo gratuito y profesional</p>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <div class="icon">🐍</div>
+            <h3>Python 3.x</h3>
+            <p>Lenguaje de programación (gratis)</p>
+            <p style="color: #667eea; margin-top: 10px">Instalación guiada paso a paso</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">📓</div>
+            <h3>Jupyter Notebook</h3>
+            <p>Entorno interactivo</p>
+            <p style="color: #667eea; margin-top: 10px">Código + documentación</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">🐘</div>
+            <h3>Anaconda</h3>
+            <p>Distribución Python completa</p>
+            <p style="color: #667eea; margin-top: 10px">Python + Jupyter (todo en uno)</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">💻</div>
+            <h3>VS Code (opcional)</h3>
+            <p>Editor de código alternativo</p>
+            <p style="color: #667eea; margin-top: 10px">Para scripts .py</p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 25px; border-radius: 15px; margin-top: 30px; text-align: center;">
+          <p style="font-size: 1.3em"><strong>💰 Inversión Total: 0€</strong></p>
+          <p style="font-size: 1.1em; margin-top: 10px">Solo necesitas un ordenador con conexión a Internet</p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 7: FUNDAMENTOS -->
+      <div class="slide">
+        <h2>🐍 Fundamentos de Python</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Variables y Tipos (4h)</h3>
+            <ul>
+              <li><strong>Tipos básicos:</strong> int, float, str, bool</li>
+              <li><strong>Operadores:</strong> +, -, *, /, %, **</li>
+              <li><strong>Strings:</strong> métodos, slicing, format</li>
+              <li><strong>Funciones básicas:</strong> print, input, type</li>
+              <li><strong>Tu primer código:</strong> variables y operaciones</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Estructuras de Datos (6h)</h3>
+            <ul>
+              <li><strong>Listas:</strong> append, remove, pop, insert</li>
+              <li><strong>Tuplas:</strong> inmutabilidad, métodos</li>
+              <li><strong>Diccionarios:</strong> keys, values, items</li>
+              <li><strong>Sets:</strong> union, intersection, difference</li>
+              <li><strong>Operaciones:</strong> indexing, slicing</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin-top: 30px;">
+          <h3 style="color: white; text-align: center; margin-bottom: 20px">🎯 Práctica: Ejemplos interactivos en Jupyter</h3>
+          <ul style="color: white;">
+            <li>✔ Operaciones con strings y métodos</li>
+            <li>✔ Manipulación de listas y tuplas</li>
+            <li>✔ Trabajo con diccionarios</li>
+            <li>✔ Operaciones con sets</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 8: CONTROL Y FUNCIONES -->
+      <div class="slide">
+        <h2>🔄 Control de Flujo y Funciones</h2>
+        <div class="module-grid">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Loops (3h)</h3>
+            <ul>
+              <li>Bucles for: iteración</li>
+              <li>Bucles while: condiciones</li>
+              <li>Break y continue</li>
+              <li>Nested loops (anidados)</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Comprehensions (3h)</h3>
+            <ul>
+              <li>List comprehension</li>
+              <li>Dict comprehension</li>
+              <li>Ternario en comprehensions</li>
+              <li>Filtrado condicional</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Contenedores (6h)</h3>
+            <ul>
+              <li>Mutabilidad vs Inmutabilidad</li>
+              <li>Paso por valor/referencia</li>
+              <li>Truthy y Falsey</li>
+              <li>Tuple packing/unpacking</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Funciones Intro (4h)</h3>
+            <ul>
+              <li>Definir funciones (def)</li>
+              <li>Parámetros y return</li>
+              <li>Funciones puras/impuras</li>
+              <li>Deterministas/no deterministas</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 25px; border-radius: 15px; margin-top: 30px;">
+          <h3 style="color: #f5576c; text-align: center">🎯 Proyectos prácticos:</h3>
+          <ul style="columns: 2; margin-top: 15px">
+            <li>✔ Simulación de dados</li>
+            <li>✔ Lista de nombres con máscaras</li>
+            <li>✔ Filtrado de listas</li>
+            <li>✔ Generación de diamantes con código</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 9: POO Y FUNCIONAL -->
+      <div class="slide">
+        <h2>🎨 POO y Programación Funcional</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">🎨 POO Básico (10h)</h3>
+            <ul>
+              <li><strong>Clases y Objetos:</strong> __init__, self</li>
+              <li><strong>Atributos y Métodos:</strong> definición</li>
+              <li><strong>Herencia:</strong> Parent y Child class</li>
+              <li><strong>Polimorfismo:</strong> mismo método, diferentes formas</li>
+              <li><strong>Encapsulación:</strong> datos + comportamientos</li>
+              <li><strong>Métodos Dunder:</strong> __str__, __repr__, __len__</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">⚡ Programación Funcional (8h)</h3>
+            <ul>
+              <li><strong>Funciones Lambda:</strong> funciones anónimas</li>
+              <li><strong>Map:</strong> transformar listas</li>
+              <li><strong>Filter:</strong> filtrar elementos</li>
+              <li><strong>Callbacks:</strong> funciones como parámetros</li>
+              <li><strong>Arity:</strong> número de argumentos</li>
+              <li><strong>Scope:</strong> local vs global</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin-top: 30px; text-align: center;">
+          <h3 style="color: white">🚀 Dos Paradigmas, Muchas Posibilidades</h3>
+          <p style="font-size: 1.2em; color: white; margin-top: 15px">POO para estructura • Funcional para transformaciones</p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 10: PRÓXIMOS PASOS -->
+      <div class="slide">
+        <h2>🎓 ¿Listo para Empezar?</h2>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 20px; text-align: center; margin: 30px 0;">
+          <h3 style="color: white; font-size: 2.5em; margin-bottom: 20px">40 Horas que Cambiarán tu Futuro</h3>
+          <p style="font-size: 1.4em; margin: 20px 0; color: white">De cero conocimientos a programador Python</p>
+        </div>
+
+        <div class="features-grid" style="grid-template-columns: repeat(2, 1fr)">
+          <div class="feature-box">
+            <div class="icon">💼</div>
+            <h3 style="color: white; font-size: 1.4em">Base Sólida</h3>
+            <p>Fundamentos para seguir aprendiendo</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🏆</div>
+            <h3 style="color: white; font-size: 1.4em">Certificado</h3>
+            <p>Acredita tus nuevas habilidades</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">👨‍🏫</div>
+            <h3 style="color: white; font-size: 1.4em">Soporte Continuo</h3>
+            <p>Ayuda personalizada del instructor</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🐍</div>
+            <h3 style="color: white; font-size: 1.4em">Jupyter Ready</h3>
+            <p>Notebooks profesionales</p>
+          </div>
+        </div>
+
+        <div class="objectives-list" style="margin-top: 30px">
+          <h3 style="color: #667eea; text-align: center; margin-bottom: 20px">📋 Requisitos para el Curso</h3>
+          <ul style="list-style: none; margin-left: 0">
+            <li>✔ <strong>Ordenador</strong> (Windows, Mac o Linux)</li>
+            <li>✔ <strong>Conexión a Internet</strong></li>
+            <li>✔ <strong>Ganas de aprender</strong> (lo más importante)</li>
+            <li>✔ <strong>Ningún conocimiento previo</strong> necesario</li>
+          </ul>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 40px; border-radius: 20px; text-align: center; margin-top: 30px;">
+          <h3 style="color: #f5576c; font-size: 2em; margin-bottom: 20px">🚀 ¡Inscríbete Ahora!</h3>
+          <p style="font-size: 1.3em; margin: 15px 0">Curso CISE - Python Fundamentos</p>
+          <p style="font-size: 1.5em; font-weight: bold; color: #764ba2; margin: 20px 0;">40 Horas • Python 🐍 • Jupyter Notebook • Desde Cero</p>
+          <div style="margin-top: 30px">
+            <p style="font-size: 1.2em; color: #666">📧 Más información: contacto@cise.es</p>
+            <p style="font-size: 1.2em; color: #666; margin-top: 10px">🌐 www.cise.es</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- NAVEGACIÓN -->
+      <div class="navigation">
+        <button id="prevBtn" onclick="changeSlide(-1)">← Anterior</button>
+        <span class="slide-number">
+          <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
+        </span>
+        <button id="nextBtn" onclick="changeSlide(1)">Siguiente →</button>
+        <button id="downloadBtn" onclick="printToPDF()" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); margin-left: 20px;">
+          🖨️ Imprimir/PDF
+        </button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

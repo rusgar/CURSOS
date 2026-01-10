@@ -50,7 +50,7 @@ function printToPDF() {
   const navigation = document.querySelector('.navigation');
   const currentActiveSlide = currentSlide - 1;
   
-  // Mostrar todas las diapositivas
+  // Mostrar todas las diapositivas para impresión
   slides.forEach(slide => {
     slide.classList.add('active');
     slide.classList.add('printing');

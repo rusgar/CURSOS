@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desarrollo Web Profesional - 80 Horas</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   </head>
   <body>
     <div class="presentation-container">
@@ -92,32 +93,32 @@
         <div class="objectives-list">
           <ul style="list-style: none; margin-left: 0">
             <li>
-              <span class="checkmark">✓</span>
+              <span class="checkmark">✔</span>
               <strong>Crear tu propio sitio web desde cero</strong> sin
               necesidad de plantillas
             </li>
             <li>
-              <span class="checkmark">✓</span>
+              <span class="checkmark">✔</span>
               <strong>Dominar HTML5, CSS3 y JavaScript</strong> con práctica
               intensiva
             </li>
             <li>
-              <span class="checkmark">✓</span>
+              <span class="checkmark">✔</span>
               <strong>Diseñar interfaces responsive</strong> que funcionen en
               cualquier dispositivo
             </li>
             <li>
-              <span class="checkmark">✓</span>
+              <span class="checkmark">✔</span>
               <strong>Añadir interactividad con JavaScript</strong>
               (formularios, menús, efectos)
             </li>
             <li>
-              <span class="checkmark">✓</span>
+              <span class="checkmark">✔</span>
               <strong>Gestionar proyectos con Git y GitHub</strong> como un
               profesional
             </li>
             <li>
-              <span class="checkmark">✓</span>
+              <span class="checkmark">✔</span>
               <strong>Construir tu portafolio profesional</strong> para mostrar
               tus habilidades
             </li>
@@ -153,7 +154,7 @@
             </p>
           </div>
           <div class="module-card">
-            <h3>🏗️ Módulo 2</h3>
+            <h3>🗃️ Módulo 2</h3>
             <p style="font-size: 1.1em">HTML5</p>
             <span class="hours">18h</span>
             <p style="font-size: 0.95em">
@@ -307,7 +308,7 @@
 
       <!-- DIAPOSITIVA 7: MÓDULOS HTML Y CSS -->
       <div class="slide">
-        <h2>🏗️ HTML5 + 🎨 CSS3</h2>
+        <h2>🗃️ HTML5 + 🎨 CSS3</h2>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px">
           <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
             <h3 style="color: #667eea">HTML5 (18 horas)</h3>
@@ -364,13 +365,13 @@
             </tr>
             <tr>
               <td style="background: white; color: #10b981; font-size: 2em">
-                ✓
+                ✔
               </td>
               <td style="background: white; color: #10b981; font-size: 2em">
-                ✓
+                ✔
               </td>
               <td style="background: white; color: #10b981; font-size: 2em">
-                ✓
+                ✔
               </td>
             </tr>
           </table>
@@ -433,12 +434,12 @@
             🎯 Proyectos JavaScript que crearás:
           </h3>
           <ul style="columns: 2; margin-top: 15px">
-            <li>✓ Contador de clicks</li>
-            <li>✓ Formulario con validación</li>
-            <li>✓ Menú hamburguesa responsive</li>
-            <li>✓ Galería con lightbox</li>
-            <li>✓ Lista de tareas (To-Do)</li>
-            <li>✓ Tema claro/oscuro</li>
+            <li>✔ Contador de clicks</li>
+            <li>✔ Formulario con validación</li>
+            <li>✔ Menú hamburguesa responsive</li>
+            <li>✔ Galería con lightbox</li>
+            <li>✔ Lista de tareas (To-Do)</li>
+            <li>✔ Tema claro/oscuro</li>
           </ul>
         </div>
       </div>
@@ -565,10 +566,10 @@
             📋 Requisitos para el Curso
           </h3>
           <ul style="list-style: none; margin-left: 0">
-            <li>✓ <strong>Ordenador</strong> (Windows, Mac o Linux)</li>
-            <li>✓ <strong>Conexión a Internet</strong></li>
-            <li>✓ <strong>Ganas de aprender</strong> (lo más importante)</li>
-            <li>✓ <strong>Ningún conocimiento previo</strong> necesario</li>
+            <li>✔ <strong>Ordenador</strong> (Windows, Mac o Linux)</li>
+            <li>✔ <strong>Conexión a Internet</strong></li>
+            <li>✔ <strong>Ganas de aprender</strong> (lo más importante)</li>
+            <li>✔ <strong>Ningún conocimiento previo</strong> necesario</li>
           </ul>
         </div>
 
@@ -615,6 +616,9 @@
           <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
         </span>
         <button id="nextBtn" onclick="changeSlide(1)">Siguiente →</button>
+        <button id="downloadBtn" onclick="printToPDF()" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); margin-left: 20px;">
+          🖨️ Imprimir/PDF
+        </button>
       </div>
     </div>
     <script src="js/script.js"></script>
