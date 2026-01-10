@@ -159,13 +159,12 @@ figcaption {
 
 /* Imágenes de fondo para cada proyecto */
 li:nth-child(1) .course-image { background-image: url('../images/IntroducionProgramacion.png'); }
-li:nth-child(2) .course-image { background-image: url('../images/proyecto2.png'); }
+li:nth-child(2) .course-image { background-image: url('../images/Python.png'); }
 li:nth-child(3) .course-image { background-image: url('../images/BBDD.png'); }
-li:nth-child(4) .course-image { background-image: url('../images/proyecto4.png'); }
-li:nth-child(5) .course-image { background-image: url('../images/proyecto5.png'); }
-li:nth-child(6) .course-image { background-image: url('../images/proyecto6.png'); }
-li:nth-child(7) .course-image { background-image: url('../images/proyecto7.png'); }
-li:nth-child(8) .course-image { background-image: url('../images/proyecto8.png'); }
+li:nth-child(4) .course-image { background-image: url('../images/Python_Avanzado.png'); }
+li:nth-child(5) .course-image { background-image: url('../images/JAVA.png'); }
+
+
 
 /* Gradientes diferentes para el figcaption de cada curso */
 li:nth-child(1) figcaption { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
@@ -173,9 +172,8 @@ li:nth-child(2) figcaption { background: linear-gradient(135deg, #f093fb 0%, #f5
 li:nth-child(3) figcaption { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
 li:nth-child(4) figcaption { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
 li:nth-child(5) figcaption { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
-li:nth-child(6) figcaption { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
-li:nth-child(7) figcaption { background: linear-gradient(135deg, #ff9a56 0%, #ff6a00 100%); }
-li:nth-child(8) figcaption { background: linear-gradient(135deg, #0adb1f 0%, #022a15 100%); }
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
