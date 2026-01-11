@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python para Data Science - 40 Horas</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="presentation-container">
+      <!-- DIAPOSITIVA 1: PORTADA -->
+      <div class="slide active">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 500px;">
+          <h1 style="font-size: 4em; margin-bottom: 20px">PYTHON PARA</h1>
+          <h1 style="font-size: 3em; margin-bottom: 40px; color: #764ba2">DATA SCIENCE</h1>
+          <div style="text-align: center">
+            <span class="tech-badge">NumPy</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">Matplotlib</span>
+          </div>
+          <div style="margin-top: 50px; text-align: center">
+            <p style="font-size: 1.8em; color: #764ba2; font-weight: bold">Curso CISE - 40 Horas</p>
+            <p style="font-size: 1.3em; color: #666; margin-top: 10px">De Python a Análisis de Datos</p>
+            <p style="font-size: 1.1em; color: #f5576c; margin-top: 15px; font-weight: bold">⚠️ Requisito: Python Fundamentos</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 2: ¿QUÉ VAS A APRENDER? -->
+      <div class="slide">
+        <h2>📊 ¿Qué vas a aprender?</h2>
+        <div class="project-showcase">
+          <h3>Análisis de Datos con Python</h3>
+          <p style="font-size: 1.3em; margin: 20px 0">Domina las herramientas esenciales para Data Science</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="icon">🔢</div>
+            <h3 style="color: white; font-size: 1.3em">NumPy</h3>
+            <p>Arrays y operaciones numéricas</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🐼</div>
+            <h3 style="color: white; font-size: 1.3em">Pandas</h3>
+            <p>Manipulación de datos</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">📈</div>
+            <h3 style="color: white; font-size: 1.3em">Matplotlib</h3>
+            <p>Visualización de datos</p>
+          </div>
+        </div>
+        <div class="objectives-list">
+          <h3>Aprenderás a:</h3>
+          <ul>
+            <li>🔢 <strong>Trabajar con arrays NumPy:</strong> operaciones matriciales y estadísticas</li>
+            <li>📊 <strong>Analizar datos con Pandas:</strong> cargar, explorar, filtrar y transformar</li>
+            <li>📈 <strong>Visualizar resultados:</strong> gráficos profesionales con Matplotlib</li>
+            <li>🎯 <strong>Proyectos reales:</strong> análisis completo de datos desde cero</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 3: OBJETIVOS DEL CURSO -->
+      <div class="slide">
+        <h2>🎯 Objetivos del Curso</h2>
+        <div class="objectives-list">
+          <ul style="list-style: none; margin-left: 0">
+            <li><span class="checkmark">✔</span> <strong>Dominar NumPy</strong> para cálculos numéricos eficientes</li>
+            <li><span class="checkmark">✔</span> <strong>Manipular datos con Pandas</strong> DataFrames, Series, filtrado</li>
+            <li><span class="checkmark">✔</span> <strong>Crear visualizaciones profesionales</strong> con Matplotlib</li>
+            <li><span class="checkmark">✔</span> <strong>Cargar y procesar datos reales</strong> archivos CSV, Excel</li>
+            <li><span class="checkmark">✔</span> <strong>Realizar análisis exploratorios</strong> estadísticas descriptivas</li>
+            <li><span class="checkmark">✔</span> <strong>Completar proyectos de análisis</strong> desde la carga hasta la visualización</li>
+          </ul>
+        </div>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin-top: 30px; text-align: center;">
+          <p style="font-size: 1.4em; color: white"><strong>Al finalizar:</strong> Podrás realizar análisis de datos completos y crear visualizaciones profesionales</p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 4: ESTRUCTURA DEL CURSO -->
+      <div class="slide">
+        <h2>📚 Estructura del Curso (40 Horas)</h2>
+        <div class="module-grid">
+          <div class="module-card">
+            <h3>🔄 Módulo 1</h3>
+            <p style="font-size: 1.1em">Repaso + NumPy Básico</p>
+            <span class="hours">8h</span>
+            <p style="font-size: 0.95em">Repaso Python, arrays, operaciones numéricas, estadísticas</p>
+          </div>
+          <div class="module-card">
+            <h3>🐼 Módulo 2</h3>
+            <p style="font-size: 1.1em">Pandas Básico</p>
+            <span class="hours">12h</span>
+            <p style="font-size: 0.95em">DataFrames, cargar CSV, filtrado, groupby, operaciones</p>
+          </div>
+          <div class="module-card">
+            <h3>📈 Módulo 3</h3>
+            <p style="font-size: 1.1em">Matplotlib + Visualización</p>
+            <span class="hours">12h</span>
+            <p style="font-size: 0.95em">Gráficos de línea, barras, histogramas, scatter, personalización</p>
+          </div>
+          <div class="module-card" style="grid-column: 1 / -1">
+            <h3>🎯 Módulo 4</h3>
+            <p style="font-size: 1.1em">Proyecto Integrador</p>
+            <span class="hours">8h</span>
+            <p style="font-size: 0.95em">Análisis completo: Carga → Exploración → Análisis → Visualización</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 5: METODOLOGÍA -->
+      <div class="slide">
+        <h2>📊 Metodología de Aprendizaje</h2>
+        <p style="font-size: 1.3em; text-align: center; margin: 20px 0">Aprende haciendo con datos reales</p>
+        <div class="methodology-chart">
+          <div class="methodology-item">
+            <span class="percentage">10%</span>
+            <span class="label">Teoría</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Conceptos clave</p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">30%</span>
+            <span class="label">Ejemplos</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Código en vivo</p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">40%</span>
+            <span class="label">Práctica Guiada</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Análisis de datos</p>
+          </div>
+          <div class="methodology-item">
+            <span class="percentage">20%</span>
+            <span class="label">Proyectos</span>
+            <p style="font-size: 1em; color: #888; margin-top: 10px">Casos reales</p>
+          </div>
+        </div>
+        <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-top: 30px;">
+          <h3>✨ Características del curso:</h3>
+          <ul>
+            <li>📊 <strong>Datos reales</strong> aprende con casos del mundo real</li>
+            <li>💡 <strong>Visualización constante</strong> ve los resultados al instante</li>
+            <li>🎯 <strong>Proyecto final completo</strong> análisis de principio a fin</li>
+            <li>👨‍🏫 <strong>Soporte personalizado</strong> del instructor</li>
+            <li>🏆 <strong>Certificado</strong> al completar el curso</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 6: HERRAMIENTAS -->
+      <div class="slide">
+        <h2>🛠️ Herramientas que Usarás</h2>
+        <p style="font-size: 1.3em; text-align: center; margin-bottom: 30px">Stack completo de Data Science</p>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <div class="icon">🐍</div>
+            <h3>Python 3.x</h3>
+            <p>Base del curso</p>
+            <p style="color: #667eea; margin-top: 10px">Ya lo dominas del Curso 1</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">📓</div>
+            <h3>Jupyter Notebook</h3>
+            <p>Entorno de análisis</p>
+            <p style="color: #667eea; margin-top: 10px">Ideal para Data Science</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">🔢</div>
+            <h3>NumPy</h3>
+            <p>Cálculos numéricos</p>
+            <p style="color: #667eea; margin-top: 10px">Arrays y matrices</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">🐼</div>
+            <h3>Pandas</h3>
+            <p>Manipulación de datos</p>
+            <p style="color: #667eea; margin-top: 10px">DataFrames y análisis</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">📈</div>
+            <h3>Matplotlib</h3>
+            <p>Visualización</p>
+            <p style="color: #667eea; margin-top: 10px">Gráficos profesionales</p>
+          </div>
+          <div class="tool-card">
+            <div class="icon">📊</div>
+            <h3>Seaborn (bonus)</h3>
+            <p>Visualización avanzada</p>
+            <p style="color: #667eea; margin-top: 10px">Gráficos estadísticos</p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 25px; border-radius: 15px; margin-top: 30px; text-align: center;">
+          <p style="font-size: 1.3em"><strong>💰 Inversión Total: 0€</strong></p>
+          <p style="font-size: 1.1em; margin-top: 10px">Todas las librerías son gratuitas y open source</p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 7: NUMPY -->
+      <div class="slide">
+        <h2>🔢 Módulo 1: NumPy (8h)</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Fundamentos NumPy</h3>
+            <ul>
+              <li><strong>¿Qué es NumPy?</strong> Por qué es esencial</li>
+              <li><strong>Arrays 1D y 2D:</strong> Creación y manipulación</li>
+              <li><strong>Indexing y Slicing:</strong> Acceso a datos</li>
+              <li><strong>Operaciones:</strong> Suma, resta, multiplicación</li>
+              <li><strong>Broadcasting:</strong> Operaciones eficientes</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Estadísticas con NumPy</h3>
+            <ul>
+              <li><strong>Funciones básicas:</strong> mean, sum, min, max</li>
+              <li><strong>Estadística:</strong> std, var, median</li>
+              <li><strong>Reshape:</strong> Cambiar forma de arrays</li>
+              <li><strong>Generación:</strong> arange, linspace, random</li>
+              <li><strong>Operaciones matriciales:</strong> dot, transpose</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin-top: 30px;">
+          <h3 style="color: white; text-align: center; margin-bottom: 20px">🎯 Proyecto: Análisis de datos numéricos</h3>
+          <ul style="color: white;">
+            <li>✔ Cálculos estadísticos de datasets</li>
+            <li>✔ Manipulación de matrices</li>
+            <li>✔ Operaciones vectorizadas eficientes</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 8: PANDAS -->
+      <div class="slide">
+        <h2>🐼 Módulo 2: Pandas (12h)</h2>
+        <div class="module-grid">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">DataFrames Básicos</h3>
+            <ul>
+              <li>Series y DataFrames</li>
+              <li>Leer CSV y Excel</li>
+              <li>Explorar datos (head, tail, info)</li>
+              <li>Describe: estadísticas rápidas</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Selección y Filtrado</h3>
+            <ul>
+              <li>loc e iloc</li>
+              <li>Filtrado condicional</li>
+              <li>Selección de columnas</li>
+              <li>Ordenar datos (sort_values)</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Transformaciones</h3>
+            <ul>
+              <li>Crear columnas nuevas</li>
+              <li>Apply y map</li>
+              <li>Manejo de valores nulos</li>
+              <li>Replace y rename</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Agrupaciones</h3>
+            <ul>
+              <li>GroupBy básico</li>
+              <li>Agregaciones (sum, mean, count)</li>
+              <li>Pivot tables</li>
+              <li>Merge y join básico</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 25px; border-radius: 15px; margin-top: 30px;">
+          <h3 style="color: #f5576c; text-align: center">🎯 Proyectos Pandas:</h3>
+          <ul style="columns: 2; margin-top: 15px">
+            <li>✔ Análisis de ventas por región</li>
+            <li>✔ Limpieza de datos sucios</li>
+            <li>✔ Agrupaciones y estadísticas</li>
+            <li>✔ Transformación de datasets</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 9: MATPLOTLIB -->
+      <div class="slide">
+        <h2>📈 Módulo 3: Matplotlib (12h)</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px">
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #667eea">Tipos de Gráficos</h3>
+            <ul>
+              <li><strong>Line plots:</strong> Tendencias temporales</li>
+              <li><strong>Bar charts:</strong> Comparaciones</li>
+              <li><strong>Histogramas:</strong> Distribuciones</li>
+              <li><strong>Scatter plots:</strong> Correlaciones</li>
+              <li><strong>Pie charts:</strong> Proporciones</li>
+              <li><strong>Box plots:</strong> Estadísticas</li>
+            </ul>
+          </div>
+          <div style="background: #f8f9fa; padding: 25px; border-radius: 15px">
+            <h3 style="color: #764ba2">Personalización</h3>
+            <ul>
+              <li><strong>Títulos y etiquetas:</strong> Claridad</li>
+              <li><strong>Colores y estilos:</strong> Profesionalidad</li>
+              <li><strong>Leyendas:</strong> Interpretación</li>
+              <li><strong>Grid:</strong> Lectura fácil</li>
+              <li><strong>Subplots:</strong> Múltiples gráficos</li>
+              <li><strong>Guardar figuras:</strong> Exportar</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin-top: 30px; text-align: center;">
+          <h3 style="color: white">🎨 Crea Visualizaciones que Comunican</h3>
+          <p style="font-size: 1.2em; color: white; margin-top: 15px">Los datos cuentan historias • Las visualizaciones las revelan</p>
+        </div>
+      </div>
+
+      <!-- DIAPOSITIVA 10: PROYECTO FINAL -->
+      <div class="slide">
+        <h2>🎓 Proyecto Integrador</h2>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 20px; text-align: center; margin: 30px 0;">
+          <h3 style="color: white; font-size: 2.5em; margin-bottom: 20px">Análisis Completo de Datos</h3>
+          <p style="font-size: 1.4em; margin: 20px 0; color: white">De datos crudos a insights visuales</p>
+        </div>
+
+        <div class="features-grid" style="grid-template-columns: repeat(2, 1fr)">
+          <div class="feature-box">
+            <div class="icon">📊</div>
+            <h3 style="color: white; font-size: 1.4em">Carga de Datos</h3>
+            <p>Importar y validar datasets</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🔍</div>
+            <h3 style="color: white; font-size: 1.4em">Exploración</h3>
+            <p>Entender la estructura</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">🧹</div>
+            <h3 style="color: white; font-size: 1.4em">Limpieza</h3>
+            <p>Preparar datos para análisis</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">📈</div>
+            <h3 style="color: white; font-size: 1.4em">Visualización</h3>
+            <p>Comunicar resultados</p>
+          </div>
+        </div>
+
+        <div class="objectives-list" style="margin-top: 30px">
+          <h3 style="color: #667eea; text-align: center; margin-bottom: 20px">📋 Requisitos</h3>
+          <ul style="list-style: none; margin-left: 0">
+            <li>✔ <strong>Python Fundamentos</strong> completado o conocimientos equivalentes</li>
+            <li>✔ <strong>Jupyter Notebook</strong> instalado</li>
+            <li>✔ <strong>Ganas de analizar datos</strong></li>
+          </ul>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 40px; border-radius: 20px; text-align: center; margin-top: 30px;">
+          <h3 style="color: #f5576c; font-size: 2em; margin-bottom: 20px">🚀 ¡Inscríbete Ahora!</h3>
+          <p style="font-size: 1.3em; margin: 15px 0">Curso CISE - Python para Data Science</p>
+          <p style="font-size: 1.5em; font-weight: bold; color: #764ba2; margin: 20px 0;">40 Horas • NumPy • Pandas • Matplotlib</p>
+          <div style="margin-top: 30px">
+            <p style="font-size: 1.2em; color: #666">📧 Más información: contacto@cise.es</p>
+            <p style="font-size: 1.2em; color: #666; margin-top: 10px">🌐 www.cise.es</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- NAVEGACIÓN -->
+      <div class="navigation">
+        <button id="prevBtn" onclick="changeSlide(-1)">← Anterior</button>
+        <span class="slide-number">
+          <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
+        </span>
+        <button id="nextBtn" onclick="changeSlide(1)">Siguiente →</button>
+        <button id="downloadBtn" onclick="printToPDF()" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); margin-left: 20px;">
+          🖨️ Imprimir/PDF
+        </button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
