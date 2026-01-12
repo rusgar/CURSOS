@@ -163,8 +163,7 @@ li:nth-child(2) .course-image { background-image: url('../images/Python.png'); }
 li:nth-child(3) .course-image { background-image: url('../images/BBDD.png'); }
 li:nth-child(4) .course-image { background-image: url('../images/Python_Avanzado.png'); }
 li:nth-child(5) .course-image { background-image: url('../images/JAVA.png'); }
-
-
+li:nth-child(6) .course-image { background-image: url('../images/ciberseguridad.png'); }
 
 /* Gradientes diferentes para el figcaption de cada curso */
 li:nth-child(1) figcaption { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
@@ -172,7 +171,7 @@ li:nth-child(2) figcaption { background: linear-gradient(135deg, #f093fb 0%, #f5
 li:nth-child(3) figcaption { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
 li:nth-child(4) figcaption { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
 li:nth-child(5) figcaption { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
-
+li:nth-child(6) figcaption { background: linear-gradient(135deg, #f00707 0%, #272010 100%); }
 
 
 /* Responsive */
