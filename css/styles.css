@@ -240,8 +240,8 @@ footer {
     flex-shrink: 0;
 }
 
-.social-icon.github {
-    background: #fff;
+.social-icon.facebook {
+    background: linear-gradient(135deg, #1877f2, #0d65d9);
 }
 
 .social-icon.linkedin {
@@ -253,8 +253,8 @@ footer {
     height: 28px;
 }
 
-.social-icon.github svg {
-    fill: #000;
+.social-icon.facebook svg {
+    fill: #fff;
 }
 
 .social-icon.linkedin svg {
